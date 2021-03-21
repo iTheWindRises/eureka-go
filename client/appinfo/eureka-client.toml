@@ -1,0 +1,17 @@
+[eureka]
+instanceId = "instanceId111"
+name = "超级实例"
+appGroup = "默认组"
+port = 9091
+trafficEnabled = false
+leaseRenewalInterval = 180
+leaseDuration = 300
+nonSecurePortEnabled = true
+homePageUrl = "main"
+statusPageUrl = "status"
+healthCheckUrl = "health"
+[eureka.metadata]
+    a = "11"
+    b = 2343
+    c = true
+    d = "sagd山东干啥"
